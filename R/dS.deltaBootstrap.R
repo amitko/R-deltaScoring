@@ -3,7 +3,7 @@
 
 library(boot);
 
-deltaBootstrap <- function(itemData) {
+dS.deltaBootstrap <- function(itemData) {
 
   res = data.frame(matrix(ncol = 1, nrow = ncol(itemData)));
   colnames(res) <- c('delta');
@@ -15,7 +15,7 @@ deltaBootstrap <- function(itemData) {
     res[i,] = bm;
     ci[i,]  = quantile(b$t, probs = c(0.05, 0.95), names = FALSE);
   }
-  return(list("delta" = data.frame(res),"conf" = ci));
+  return(list("delta" = res,"conf" = ci));
 }
 
 bmean <- function(dat,indices) {
