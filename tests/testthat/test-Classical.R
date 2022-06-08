@@ -1,6 +1,6 @@
 test_that("bootstrapping Deltas",{
 
-  itemData = read.csv('item_scores.csv')
+itemData = read.csv('item_scores.csv')
 
 db<-dS.deltaBootstrap(itemData)
 db
