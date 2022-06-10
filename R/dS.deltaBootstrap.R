@@ -5,9 +5,9 @@ library(boot);
 
 dS.deltaBootstrap <- function(itemData) {
 
-  res = data.frame(matrix(ncol = 1, nrow = ncol(itemData)));
+  res = matrix(ncol = 1, nrow = ncol(itemData));
   colnames(res) <- c('delta');
-  ci  = data.frame(matrix(ncol = 2, nrow = ncol(itemData)));
+  ci  = matrix(ncol = 2, nrow = ncol(itemData));
   colnames(ci) <- c('0.05','0.95');
   for(i in 1:ncol(itemData)) {
     b<-boot(data=itemData[,i],statistic = bmean,1000);

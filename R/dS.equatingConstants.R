@@ -6,8 +6,8 @@ dS.equatingConstants <- function(baseTestDeltas, newTestDeltas,commonItems)
 	Zbc = Zb[commonItems[,1]];
 	Znc = Zn[commonItems[,2]];
 	
-	A = std(Zbc)/std(Zbn);
-	B = mean(Zbc) - A * mean(Zbn);
+	A = sd(Zbc)/sd(Znc);
+	B = mean(Zbc) - A * mean(Znc);
 	
 	return( list( "A" = A, "B" = B) );
 	
