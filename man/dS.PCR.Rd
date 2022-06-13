@@ -34,7 +34,8 @@ rows correspond to the Dscore values
 columns rorrespond to the items
 }
 \references{
-%% ~put references to the literature/web site here ~
+
+Dimitrov, Dimiter. (2019). Modeling of Item Response Functions Under the D -Scoring Method. Educational and Psychological Measurement. 80. 001316441985417. 10.1177/0013164419854176. 
 }
 \author{
 Dimitar Atanasov, 2022

@@ -33,7 +33,7 @@ list
 \item{B}
 }
 \references{
-%% ~put references to the literature/web site here ~
+Dimitrov, Dimiter. (2017). The Delta-Scoring Method of Tests With Binary Items: A Note on True Score Estimation and Equating. Educational and Psychological Measurement. 78. 001316441772418. 10.1177/0013164417724187. 
 }
 \author{
 Dimitar Atanasov, 2022

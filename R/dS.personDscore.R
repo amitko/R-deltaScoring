@@ -1,5 +1,5 @@
 dS.personDscore <- function(itemData, deltas, type="relative_to_d" ) {
-  res = data.frame(matrix(ncol = 1, nrow = nrow(itemData)));
+  res = matrix(ncol = 1, nrow = nrow(itemData));
   for(k in 1:nrow(itemData)) {
     if (type == "total") {
       res[k,] = sum(as.numeric(itemData[k,]) * deltas)
@@ -12,5 +12,5 @@ dS.personDscore <- function(itemData, deltas, type="relative_to_d" ) {
     }
     
   }
-  return( list("Dscores" = res));
+  return( res);
 }

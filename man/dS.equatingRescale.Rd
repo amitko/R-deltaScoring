@@ -29,7 +29,9 @@ numeric
 rescaled deltas
 }
 \references{
-%% ~put references to the literature/web site here ~
+Dimitrov, Dimiter. (2017). The Delta-Scoring Method of Tests With Binary Items: A Note on True Score Estimation and Equating. Educational and Psychological Measurement. 78. 001316441772418. 10.1177/0013164417724187. 
+
+Dimitrov, Dimiter. (2016). An Approach to Scoring and Equating Tests With Binary Items: Piloting With Large-Scale Assessments. Educational and Psychological Measurement. 76. 10.1177/0013164416631100. 
 }
 \author{
 Dimitar Atanasov, 2022
