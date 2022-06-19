@@ -2,7 +2,7 @@
 \alias{dS.logitDeltaPlot}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Plot ICC
 }
 \description{
 Plots ICC for the specified items, fitted by dS.logitDeltaFit(), uder the model (1RFM, 2RFM, 3RFM) defined in options.
