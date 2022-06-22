@@ -17,15 +17,31 @@
 \maketitle
 
 \section{Instalation}
+\begin{lstlisting}
+install.package(devtools)
+library(devtools)
+install_github("amitko/deltaScoring")
+\end{lstlisting}
+
+\section{Loading}
+\begin{lstlisting}
+library(boot)
+library(deltaScoring)
+\end{lstlisting}
 
 \section{Item responses}
-The dihotomous item response (0/1) should be in a numeric array. For example 
+The dihotomous item response (0/1) should be in a numeric array. For example (
 \begin{lstlisting}
 install.packages("random")  
 library("random")
 
-itemData<- randomNumbers(n = 5000,min = 0,max = 1,col = 20) 
+itemData <- randomNumbers(n = 5000,min = 0,max = 1,col = 20) 
  
+\end{lstlisting}
+
+The data are just a matrix with 0 and 1, so the results below are only for test purposes. If a real data stored in a file {\tt data.csv} is used the loading is as folows
+\begin{lstlisting}
+itemData <- read.csv('data.csv')
 \end{lstlisting}
 
 \section{Estimating item delta}
